@@ -60,7 +60,7 @@ return view.extend({
 				E('div', {'style': 'padding-bottom: 20px'}, [scrollDownButton]),
 				E('textarea', {
 					'id': 'syslog',
-					'style': 'font-size:12px',
+					'style': 'font-size:12px; font-family:monospace;',
 					'readonly': 'readonly',
 					'wrap': 'off',
 					'rows': loglines.rows,
